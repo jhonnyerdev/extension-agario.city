@@ -11,3 +11,4 @@ skinurl.addEventListener('input', function (event) {
 	
 	loadedSkins.set(parseInt(getLocalData("currentSkin")),img1);
  });
+document.getElementById('mobileStuff')?.remove();
